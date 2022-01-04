@@ -1,0 +1,221 @@
+    .fondo {
+        background: #e9fcff;
+      }
+      .negro {
+        background: rgb(12, 12, 12);
+      }
+  
+      .btn-circulo {
+        border-radius: 50px;
+      }
+  
+      .tamaño {
+        font-size: 14px;
+      }
+  
+      /* f8f54c */
+  
+      .colorM {
+        background-color: #9ee9e9;
+      }
+  
+      .colorH {
+        background: #e9fcff;
+      }
+      .ColorNegro {
+        color: black;
+      }
+  
+      .carru {
+        text-decoration-line: none;
+        color: #e9fcff;
+      }
+      .carru:hover {
+        color: black;
+      }
+  
+      .card {
+        border-radius: 40px;
+      }
+      .colorF {
+        background: #c4d8d8;
+      }
+      .neg {
+        color: black;
+      }
+  
+      .ColumnaIzquierda {
+        background: -webkit-linear-gradient(top, rgba(16,114,150,1) 0%, rgba(33,180,226,0.39) 51%, rgba(0,176,240,0.11) 75%, rgba(25,108,209,0.05) 80%, rgba(35,81,196,0.05) 82%);
+        border-radius: 20px;
+      }
+
+      table {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  .btn-circulo2 {
+    border-radius: 200px;
+  }
+  /*Navegacion Sep*/
+.barra {
+  display: flex;
+  justify-content: space-between; /*Alineacion horizontal*/
+  padding: .8rem;
+  align-items: center; /*Alineacion Vertical*/
+  top: 0;
+}
+
+.navegacion a {
+  color: rgba(251, 253, 255, 0.876);
+  text-decoration: none;
+  font-size: .9rem;
+  margin-right: .8rem;
+  align-items: center; /*Alineacion Vertical*/
+}
+.gobmex {
+  max-width: 5rem;
+  margin: 0px 0px 0px 0px;
+}
+
+.lupita {
+  width: 1rem;
+  margin: 0px 0px 0px 0px;
+  padding: 0%;
+}
+
+.sticky-top-2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.5rem;
+  z-index: 1030;
+}
+
+.menor {
+  margin-right: 0;
+}
+
+.AzulTec {
+  background: rgb(27, 57, 106);
+  border: 0;
+  padding: 1rem;
+}
+
+.LetraBlanca {
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration-line: none;
+  text-decoration: none;
+}
+.LetraBlanca a:hover {
+  color: #9ee9e9;
+  text-decoration: none;
+  background-color: rgba(130, 223, 251, 0.11);
+}
+.no-padding {
+  padding: .3rem;
+}
+
+.no-margen {
+  margin: 0;
+}
+
+.redondear {
+  border-radius: 50px;
+}
+.redondear2 {
+  border-radius: 25px;
+}
+
+.footerGob {
+  background-image: url(../assets/img/fondofooter.jpg);  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.tNombre {
+  max-width: 10rem;
+  min-width: 10rem;
+}
+ 
+.mapa {
+  min-width: 100%;
+  min-height: 29rem;
+  border:0; 
+}
+.pdf {
+  width: 100%; 
+  height: 600px
+}
+
+.titulo {
+  color: rgb(27, 57, 106);
+  font-size: 3rem;
+}
+.MiVi {
+  background: rgb(233, 249, 255);
+  padding: 2rem;
+  min-height: 13rem;
+}
+
+.reducir {
+  width: 90%;
+}
+ul, ol {
+  list-style: none;
+}
+.nave li a {
+  background: rgb(27, 57, 106);
+  color: white;
+  text-decoration: none;
+  padding: .3rem 1.5rem;
+  display: block;
+}
+.nave li a:hover {
+  background-color: rgba(34, 66, 117, 0.705);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: #140b66 1px;
+  border-block: 1px;
+}
+
+.nave >li {
+  float: left;
+}
+.nave li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.nave li:hover > ul {
+  display: block;
+}
+nav a:hover {
+  color: rgb(46, 203, 251);
+}
+nave a:hover {
+  background-color: rgb(35, 186, 224);
+  color: black;
+}
+.barra2 {
+  display: flex;
+  justify-content: center; /*Alineacion horizontal*/
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 2.2rem;
+}
+@media (max-width: 768px) {
+  .nave {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .nave-cel {
+    display: none;
+  }
+}
+.hover-rojo:hover {
+  color: red;
+}
